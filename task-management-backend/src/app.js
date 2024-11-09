@@ -17,7 +17,7 @@ mongoose
 
 const Task = require("./models/task");
 
-app.get("/tasks", async (req, res) => {});
+app.get("/tasks", (req, res) => {});
 
 app.post("/task/new", (req, res) => {});
 
